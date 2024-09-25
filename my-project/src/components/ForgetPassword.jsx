@@ -87,7 +87,7 @@ const ForgetPassword = () => {
               color="primary"
               fullWidth
             >
-              Reset Password
+              Send
             </Button>
           </div>
         </form>

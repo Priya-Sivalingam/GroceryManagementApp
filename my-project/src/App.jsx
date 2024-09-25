@@ -3,6 +3,7 @@ import Signup from './components/Signup'
 import Signin from './components/Signin'
 import Dashboard from './components/Dashboard'
 import ForgetPassword from './components/ForgetPassword'
+import ResetPassword from './components/ResetPassword'
 
 function App () {
   return (
@@ -12,6 +13,7 @@ function App () {
       <Route path = "/Signup" element={<Signup/>}></Route>
       <Route path = "/Signin" element ={<Signin/>}></Route>
       <Route path = "/forgetPassword" element ={<ForgetPassword/>}></Route>
+      <Route path = "/reset-password/:token" element ={<ResetPassword/>}></Route>
     </Routes>
     </BrowserRouter>
   )
