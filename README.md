@@ -1,4 +1,4 @@
-# ECommerce Website
+# GroceryManagementApp 
 
 This project is a simple starting point for an e-commerce website. It includes user authentication features such as signup, signin, and forgot password functionalities. The backend is built with Node.js, Express.js, and MongoDB, while the frontend is developed using React.js.
 
